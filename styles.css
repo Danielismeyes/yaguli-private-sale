@@ -138,3 +138,6 @@ h2 { margin-top: 12px; font-size: clamp(31px, 8vw, 44px); line-height: 1.15; let
   .actions, .actions .button { width: 100%; }
   .brand img { width: 102px; }
 }
+
+.mini-grid a { display: block; aspect-ratio: 1; overflow: hidden; border: 1px solid var(--border); border-radius: 5px; background: var(--graphite); }
+.mini-grid img { display: block; width: 100%; height: 100%; object-fit: cover; }
